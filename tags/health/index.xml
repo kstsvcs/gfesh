@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GFESH - Global Foundation for Ethics &amp; Spiritual Health</title>
+    <link>http://kstsvcs.github.io/gfesh/tags/health/index.xml</link>
+    <description>Recent content on GFESH - Global Foundation for Ethics &amp; Spiritual Health</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2014 - 2017, GFESH; All rights reserved.</copyright>
+    <atom:link href="http://kstsvcs.github.io/gfesh/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GFESH 2017</title>
+      <link>http://kstsvcs.github.io/gfesh/blog/2017/01/08/conf2017/</link>
+      <pubDate>Sun, 08 Jan 2017 13:50:46 +0200</pubDate>
+      
+      <guid>http://kstsvcs.github.io/gfesh/blog/2017/01/08/conf2017/</guid>
+      <description>
+
+&lt;h2 id=&#34;gfesh-at-mumbai-january-08th-2017&#34;&gt;GFESH at Mumbai, January 08th, 2017&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kstsvcs.github.io/gfesh2017&#34;&gt;GFES-2017&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GFESH 2016</title>
+      <link>http://kstsvcs.github.io/gfesh/blog/2016/01/03/conf2016/</link>
+      <pubDate>Sun, 03 Jan 2016 13:50:46 +0200</pubDate>
+      
+      <guid>http://kstsvcs.github.io/gfesh/blog/2016/01/03/conf2016/</guid>
+      <description>
+
+&lt;h2 id=&#34;gfesh-at-mumbai-january-03rd-2016&#34;&gt;GFESH at Mumbai, January 03rd, 2016&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
