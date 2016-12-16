@@ -1,0 +1,227 @@
+.container {
+  width: 100%;
+  display: table;
+  margin: 0;
+}
+
+nav a {
+  display: table-cell;
+  color: white;
+  width: 14.2%;
+  text-align: center;
+  font-size: 2em;
+  @media (max-width: 768px) {
+    font-size: 1.5em;
+  }
+  padding:.5em;
+  &:first-child {
+    border-radius: 5px 0 0 5px;
+    @media (max-width: 768px) {
+      border-radius: 0;
+    }
+  }
+  &:last-child {
+    border-radius: 0px 5px 5px 0px;
+    @media (max-width: 768px) {
+      border-radius: 0;
+    }
+  }
+}
+
+
+/*
+Here's a handy list of social media colors: http://goo.gl/7uo5TR 
+*/
+
+$fb: #3B5998;
+
+/*Facebook*/
+
+$tw: #55ACEE;
+
+/*Twitter*/
+
+$gp: #DD4B39;
+
+/*Google Plus*/
+
+$ig: #517FA4;
+
+/*Instagram*/
+
+$tu: #32506D;
+
+/*Tumblr*/
+
+$fl: #FF0084;
+
+/*Flickr*/
+
+$vi: #00BF8F;
+
+/*Vine*/
+
+
+/* 
+Setting equal widths dependent on the number of links.
+Add or remove as many as necessary.
+*/
+
+
+/* one item */
+
+nav a:first-child:nth-last-child(1) {
+  width: 100%;
+}
+
+
+/* two items */
+
+nav a:first-child:nth-last-child(2),
+nav a:first-child:nth-last-child(2) ~ a {
+  width: 50%;
+}
+
+
+/* three items */
+
+nav a:first-child:nth-last-child(3),
+nav a:first-child:nth-last-child(3) ~ a {
+  width: 33.3333%;
+}
+
+
+/* four items */
+
+nav a:first-child:nth-last-child(4),
+nav a:first-child:nth-last-child(4) ~ a {
+  width: 25%;
+}
+
+
+/* five items */
+
+nav a:first-child:nth-last-child(5),
+nav a:first-child:nth-last-child(5) ~ a {
+  width: 20%;
+}
+
+
+/* six items */
+
+nav a:first-child:nth-last-child(6),
+nav a:first-child:nth-last-child(6) ~ a {
+  width: 16.666%;
+}
+
+
+/* seven items */
+
+nav a:first-child:nth-last-child(7),
+nav a:first-child:nth-last-child(7) ~ a {
+  width: 14.285%;
+}
+
+
+/* eight items */
+
+nav a:first-child:nth-last-child(8),
+nav a:first-child:nth-last-child(8) ~ a {
+  width: 12.5%;
+}
+
+
+/*
+Assigning link background colors and setting the hover and active states. For quick adding of buttons, perform a search + replace on the 2 letter variable name.
+*/
+
+nav a.fb {
+  background: $fb;
+  text-shadow: 1px 1px 0px darken($fb, 15%);
+  &:hover {
+    color: saturate($fb, 10%) !important;
+    background: darken($fb, 10%)
+  }
+  &:active {
+    color: $fb;
+    background: darken($fb, 20%)
+  }
+}
+
+nav a.tw {
+  background: $tw;
+  text-shadow: 1px 1px 0px darken($tw, 15%);
+  &:hover {
+    color: saturate($tw, 10%) !important;
+    background: darken($tw, 10%)
+  }
+  &:active {
+    color: $tw;
+    background: darken($tw, 20%)
+  }
+}
+
+nav a.gp {
+  background: $gp;
+  text-shadow: 1px 1px 0px darken($gp, 15%);
+  &:hover {
+    color: saturate($gp, 10%) !important;
+    background: darken($gp, 10%)
+  }
+  &:active {
+    color: $gp;
+    background: darken($gp, 20%)
+  }
+}
+
+nav a.ig {
+  background: $ig;
+  text-shadow: 1px 1px 0px darken($ig, 15%);
+  &:hover {
+    color: saturate($ig, 10%) !important;
+    background: darken($ig, 10%)
+  }
+  &:active {
+    color: $ig;
+    background: darken($ig, 20%)
+  }
+}
+
+nav a.fl {
+  background: $fl;
+  text-shadow: 1px 1px 0px darken($fl, 15%);
+  &:hover {
+    color: saturate($fl, 10%) !important;
+    background: darken($fl, 10%)
+  }
+  &:active {
+    color: $fl;
+    background: darken($fl, 20%)
+  }
+}
+
+nav a.tu {
+  background: $tu;
+  text-shadow: 1px 1px 0px darken($tu, 15%);
+  &:hover {
+    color: saturate($tu, 10%) !important;
+    background: darken($tu, 10%)
+  }
+  &:active {
+    color: $tu;
+    background: darken($tu, 20%)
+  }
+}
+
+nav a.vi {
+  background: $vi;
+  text-shadow: 1px 1px 0px darken($vi, 15%);
+  &:hover {
+    color: saturate($vi, 10%) !important;
+    background: darken($vi, 10%)
+  }
+  &:active {
+    color: $vi;
+    background: darken($vi, 20%)
+  }
+}
